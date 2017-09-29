@@ -4,20 +4,20 @@ This repository is use to collecting some function, class methods, library and e
 All code and library will separate by topic, so please use list of topics below as index.
 
 * auto-rotation-php
-	Fix wrong rotation images in img tag based on combined PHP method and CSS inline.
+	- Fix wrong rotation images in img tag based on combined PHP method and CSS inline.
 * confirm-inline-html
-	Simple inline javascript action confirmation dialog when clicked on target element.
+	- Simple inline javascript action confirmation dialog when clicked on target element.
 * get-rotation-jquery
-	Get rotation degrees in any css properties of elements based on jquery.
+	- Get rotation degrees in any css properties of elements based on jquery.
 * muiwprev-jquery
-	Multiple images upload with preview.
+	- Multiple images upload with preview.
 * ngzone-observable-ionic3
-	Using NgZone with Observable to create various responding method in ionic v.3
+	- Using NgZone with Observable to create various responding method in ionic v.3
 * override-css-button-ionic3
-	CSS override button-inner class ionic 3.
+	- CSS override button-inner class ionic 3.
 * response-status-php
-	PHP Check url response status.
+	- PHP Check url response status.
 * unveil-lazyload-datatable-jquery
-	Implement jquery.unviel.js/lazyload.js remastered to DataTable for optimized rendering speed following pagination.
+	- Implement jquery.unviel.js/lazyload.js remastered to DataTable for optimized rendering speed following pagination.
 * web-dev-tools
-	Web development tools.
+	- Web development tools.
