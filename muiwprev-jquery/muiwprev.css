@@ -1,0 +1,17 @@
+.thumbnail{
+    height: 100px;
+    margin: 10px; 
+    float: left;
+}
+#clear{
+	display: none;
+}
+#result {
+	position: absolute;
+	left: 18em;
+    border: 4px dotted #cccccc;
+    display: none;
+    float: right;
+    margin:0 auto;
+    width: 511px;
+}

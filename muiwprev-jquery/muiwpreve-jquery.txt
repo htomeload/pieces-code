@@ -1,0 +1,15 @@
+# Multiple images upload with preview.
+
+Usage : 
+<head>
+	<link rel="stylesheet" ref="muiwprev.css" />
+	<script src="muiwprev.js"></script>
+</head>
+
+Sample : 
+<input type="file" id="images" name="images" accept="image/*" />
+
+<div id="outpost">
+</div>
+
+From : https://stackoverflow.com/a/23402427
