@@ -1,0 +1,29 @@
+# Using NgZone with Observable to create various responding method in ionic v.3
+
+import { NgZone } from '@angular/core';
+import { Observable } from 'rxjs/Observable';
+
+export class Page {
+	constructor(public zone: NgZone){
+	}
+	
+	loader(){
+		...
+		
+		return Observable.create(observer => {
+			observer.next(value); // Respond on success.
+			observer.throw(error); // Respond on failed.
+			observer.complete(); // Respond on finished.
+		});
+	}
+	
+	caller(){
+		this.zone.run(() => {
+			this.loader().subscribe(() => {
+				value => { ... }, // Callback on success.
+				error => { ... }, // Callback on failed.
+				() => { ... }, // Callback on finished.
+			});
+		});
+	}
+}

@@ -1,0 +1,35 @@
+# Implement jquery.unviel.js/lazyload.js remastered to DataTable for optimized rendering speed following pagination
+
+Download jquery.unviel.js : https://github.com/luis-almeida/unveil
+Download [WIP] lazyload remastered: https://github.com/tuupola/jquery_lazyload
+Download or copy CDN link DataTable: https://datatables.net/
+
+Usage : 
+<img data-src=“destination/to/somesource.jpg” />
+
+<script src=”destination/to/jquery.unviel.js”></script>
+<!-- This apply to lazyload.js/lazyload.min.js
+<script src=”destination/to/lazyload.min.js”></script>
+-->
+
+<script>
+$("#id_of_table img:visible").unveil();
+$("#id_of_table_paginate").on("click", function(){
+	$("#id_of_table img:visible").unveil();
+});
+</script>
+
+Change from “ .unveil(); ” to “ .lazyload(); ” for applying code with lazyload.js remastered.
+
+Sample : 
+<img data-src=“img.jpg” />
+
+<script src=”lazyload.min.js”></script>
+
+<script>
+$("#table img:visible").lazyload();
+
+$("#table_paginate").on("click", function(){
+	$("#table img:visible").lazyload();
+});
+</script>

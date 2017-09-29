@@ -1,0 +1,50 @@
+# Web tools
+
+Responsive web template
+http://startbootstrap.com/template-overviews/heroic-features/ 
+http://startbootstrap.com/template-overviews/2-col-portfolio/ 
+http://startbootstrap.com/template-categories/all/ 
+https://w3layouts.com/
+------------------------------------------------------------------------------------
+Pingendo - Web design tool for desktop.
+http://pingendo.com/
+------------------------------------------------------------------------------------
+Web HTML hex code color collections
+https://www.computerhope.com/htmcolor.htm
+------------------------------------------------------------------------------------
+PHP Sandbox online
+http://phptester.net/
+http://phpfiddle.org/
+http://sandbox.onlinephpfunctions.com/
+------------------------------------------------------------------------------------
+Lorem Ipsum
+http://lorem.in.th/
+http://www.lipsum.com/
+------------------------------------------------------------------------------------
+Pixel < - > mm Convertor
+http://www.unitconversion.org/typography/millimeters-to-pixels-y-conversion.html
+------------------------------------------------------------------------------------
+TCPDF HTML -> PDF Generator ( Thai language support )
+https://www.ninenik.com/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B8%E0%B8%81%E0%B8%95%E0%B9%8C%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87_pdf_%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C_%E0%B8%88%E0%B8%B2%E0%B8%81_tcpdf_class_%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2_php_%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B9%84%E0%B8%97%E0%B8%A2-226.html
+------------------------------------------------------------------------------------
+SQL Fiddle
+http://sqlfiddle.com/
+------------------------------------------------------------------------------------
+30 CSS Selectors
+https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+
+MySQL DataType and Format
+https://www.tutorialspoint.com/mysql/mysql-data-types.htm
+------------------------------------------------------------------------------------
+Font Awesome CSS Class, &Unicode  Cheatsheet
+http://fontawesome.io/cheatsheet/
+Note: Must add “font-family: 'FontAwesome';” to style attribute of select element to apply &Unicode.
+------------------------------------------------------------------------------------
+Centering CSS Tricks completed
+https://css-tricks.com/centering-css-complete-guide/
+------------------------------------------------------------------------------------
+CSS Animation tricks
+http://www.the-art-of-web.com/css/css-animation/
+------------------------------------------------------------------------------------
+jQuery plug-in collections
+https://github.com/yashprit/awesome-jquery

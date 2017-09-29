@@ -1,0 +1,27 @@
+# PHP Check url response status
+
+Usage : 
+$var = check_url($url);
+$url must be string valid url form.
+
+function check_url($url){
+	$handle = curl_init($url);
+	curl_setopt($handle,  CURLOPT_RETURNTRANSFER, TRUE);
+
+	/* Get the HTML or whatever is linked in $url. */
+	$response = curl_exec($handle);
+
+	/* Check for 404 (file not found). */
+	$httpCode = curl_getinfo($handle, CURLINFO_HTTP_CODE);
+	
+	curl_close($handle);
+	
+	return $httpCode;
+}
+
+Sample : 
+<?php
+	echo check_url("https://www.google.com");
+?>
+
+From : https://stackoverflow.com/a/408416

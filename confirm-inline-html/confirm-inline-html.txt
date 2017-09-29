@@ -1,0 +1,7 @@
+# Simple inline javascript action confirmation dialog when clicked on target element.
+
+Usage : 
+onclick=“if(!confirm('some text here.')){return false;}else{ // In case of callback after confirmation. Can be removed if no use. }”
+
+Sample : 
+<a href=“removeme.php?id=0” onclick=“if(!confirm('Are you sure to remove this one ?')){return false;}”>Delete Me!</a>

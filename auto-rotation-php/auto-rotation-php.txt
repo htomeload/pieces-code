@@ -1,0 +1,35 @@
+﻿# Fix wrong rotation images in img tag based on combined PHP method and CSS inline.
+Usage : 
+<?php
+	function rotator($path){
+		$exif = exif_read_data($path);
+		$rotate = "0deg";
+		
+		if (empty($exif["Orientation"])){
+			return $rotate;
+		}
+		
+		switch($exif["Orientation"]){
+			case 3:{ // head at 270°, forward 180°.
+				$rotate = "180deg";
+				break;
+			}
+			case 6:{ // head at 180°, forward 90°.
+				$rotate = "90deg";
+				break;
+			}
+			case 8:{ // head at 0°, backward 90°.
+				$rotate = "-90deg";
+				break;
+			}
+		}
+		
+		return $rotate;
+	}
+?>
+Sample : 
+<img src="img/<?=$img;?>" style="transform: rotate(<?=rotator("img/".$img);?>);">
+From : https://stackoverflow.com/questions/26697230/incorrect-image-rotation-in-img-tag/26698203#26698203
+Reference :
+JPEG Rotation and EXIF Orientation
+http://www.impulseadventure.com/photo/exif-orientation.html
