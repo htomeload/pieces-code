@@ -27,9 +27,12 @@ Usage :
 		return $rotate;
 	}
 ?>
+
 Sample : 
 <img src="img/<?=$img;?>" style="transform: rotate(<?=rotator("img/".$img);?>);">
+
 From : https://stackoverflow.com/questions/26697230/incorrect-image-rotation-in-img-tag/26698203#26698203
+
 Reference :
 JPEG Rotation and EXIF Orientation
 http://www.impulseadventure.com/photo/exif-orientation.html
