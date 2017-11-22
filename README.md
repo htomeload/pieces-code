@@ -3,6 +3,8 @@ This repository is use to collecting some function, class methods, library and e
 
 All code and library will separate by topic, so please use list of topics below as index.
 
+* angularjs-type-declarations
+	- Available lists of data types which can be declarated and how to defines in AngularJS 2.
 * auto-rotation-php
 	- Fix wrong rotation images in img tag based on combined PHP method and CSS inline.
 * confirm-inline-html

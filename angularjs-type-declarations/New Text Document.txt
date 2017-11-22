@@ -1,0 +1,51 @@
+Type of data to declaration.
+
+	boolean; // Type of boolean
+
+	string; // Type of string
+	
+	number; // Type of integer, float and double
+	
+	Array<{}>; // Type of objects in array structure*
+	
+	object; // Type of object
+	
+	Array<T>; // Type of array**
+	
+	void; // Type of empty
+	
+	null; // Type of empty
+	
+	any; // Type of undefined
+		
+	
+
+Same way as above
+	
+	[{c: boolean, d: any}]; // Equal to Array<{}>;
+	
+	{a: string, b: number}; // Equal to object;
+		
+
+Defines way
+	
+	a = true; // Equal to boolean;
+	
+	b = ""; // Equal to string;
+	
+	c = 1; // Equal to number;
+	
+	d = [{a: true, b: ""}, {c: 1}]; // Equal to Array<{}>;
+	
+	e = {a: true, b: ""}; // Equal to object;
+	
+	f = [1, 2, 3]; // Equal to Array<T>;
+	
+	g = new Array(); // Equal to Array<any>;
+	h; // Equal to any;
+		
+	
+
+*In Array<{}>, developer must define at least one index and may without type of index.
+	
+**In Array<T>, T is meaning to type of data inside. It possible to be all of data types.
